@@ -7,7 +7,7 @@
 2. Run `$ python create_image_pool.py tiles/` to create the tiles database.
 
 \* use `check_images.py` to "weed" out images with different ratios 
-    `$ python check_images.py tiles_dir desired_width desired_height weeded_tiles_dir`
+    $ python check_images.py tiles_dir desired_width desired_height weeded_tiles_dir
 This will put all images not matching `desired_width` and `desired_height` into `weeded_tiles_dir` so you can fix them later on and re-add them into the image pool.  
 
 ## Creating the mosaic
@@ -24,9 +24,9 @@ After running `create_image_pool.py`, you can now create mosaics.
 - `-x XSTART, --xStart=XSTART`: X position of where to start matching. For `inside-out` method only. 
 - `-y YSTART, --yStart=YSTART`: Y position of where to start matching. For `inside-out` method only. 
 
-* * *
+* * * *
 
 Sample results and more info can be found on my [website][].
 
 [PIL]: http://www.pythonware.com/products/pil/
-[website]: http://john2x.com/projects/photomosaics
+[website]: http://john2x.com/projects/photomosaic
